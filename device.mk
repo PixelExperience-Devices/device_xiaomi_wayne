@@ -400,6 +400,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     $(LOCAL_PATH)/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
+# Soter
+PRODUCT_PACKAGES += \
+    soter
+
+PRODUCT_BOOT_JARS += \
+    soter
+
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
