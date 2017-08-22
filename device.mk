@@ -443,7 +443,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
     libqsap_sdk \
-    libQWiFiSoftApCfg \
     libwifi-hal-qcom \
     wcnss_service \
     wpa_supplicant \
