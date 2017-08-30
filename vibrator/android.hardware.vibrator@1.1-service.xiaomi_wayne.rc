@@ -34,7 +34,7 @@ on init
     chmod 0644 /sys/devices/virtual/timed_output/vibrator/wf_s_rep
     chmod 0644 /sys/devices/virtual/timed_output/vibrator/wf_update
 
-service vibrator-1-1 /vendor/bin/hw/android.hardware.vibrator@1.1-service.xiaomi_wayne
+service vendor.vibrator-1-1 /vendor/bin/hw/android.hardware.vibrator@1.1-service.xiaomi_wayne
     class hal
     user system
     group system
