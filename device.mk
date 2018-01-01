@@ -311,10 +311,10 @@ PRODUCT_BOOT_JARS += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.xiaomi_wayne
+    android.hardware.power@1.2-service.xiaomi_wayne-libperfmgr 
 
 PRODUCT_COPY_FILES += \
-    device/xiaomi/wayne/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+    device/xiaomi/wayne/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
