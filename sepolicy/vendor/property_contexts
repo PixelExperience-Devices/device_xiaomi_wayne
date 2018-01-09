@@ -22,6 +22,7 @@ persist.vendor.sys.pay.ifaa         u:object_r:ifaa_prop:s0
 
 # Perf
 sys.post_boot. u:object_r:post_boot_prop:s0
+vendor.powerhal.state u:object_r:power_prop:s0
 
 # Thermal engine
 persist.sys.thermal.                u:object_r:thermal_prop:s0
