@@ -24,6 +24,7 @@
 
 # Shell Script
 /(vendor|system/vendor)/bin/init\.goodix\.sh    u:object_r:init_fingerprint_exec:s0
+/(vendor|system/vendor)/bin/init\.qcom\.power\.sh   u:object_r:qti_init_shell_exec:s0
 
 # USB HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.xiaomi_wayne       u:object_r:hal_usb_default_exec:s0
