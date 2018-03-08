@@ -413,10 +413,9 @@ on post-fs-data
     mkdir /data/vendor/fm 0770 system system
     chmod 0770 /data/vendor/fm
 
-    #Create PERFD deamon related dirs
-    mkdir /data/vendor/perfd 0770 root system
-    chmod 2770 /data/vendor/perfd
-    rm /data/vendor/perfd/default_values
+    # Create perfd related dirs
+    mkdir /data/system/perfd 0770 root system
+    chmod 2770 /data/system/perfd
 
     # Mark the copy complete flag to not completed
     write /data/vendor/radio/copy_complete 0
@@ -544,6 +543,13 @@ service vendor.port-bridge /system/vendor/bin/port-bridge
     disabled
     oneshot
 
+service perfd /vendor/bin/perfd
+   class main
+   user root
+   group root readproc system
+   socket perfd seqpacket 0666 root system
+   disabled
+
 service vendor.netmgrd /system/vendor/bin/netmgrd
     class main
     disabled
@@ -618,6 +624,10 @@ service loc_launcher /system/vendor/bin/loc_launcher
     user gps
     group gps
     writepid /dev/cpuset/system-background/tasks
+
+# qcom-power triggers this property
+on property:sys.post_boot.parsed=1
+    start perfd
 
 service qcom-sh /vendor/bin/init.qcom.sh
     class late_start
