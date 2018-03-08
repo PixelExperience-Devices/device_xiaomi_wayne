@@ -311,7 +311,7 @@ PRODUCT_BOOT_JARS += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.1-service-qti
+    android.hardware.power@1.1-service.xiaomi_wayne
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
