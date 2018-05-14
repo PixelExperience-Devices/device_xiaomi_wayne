@@ -13,6 +13,3 @@ type keylayout_file, file_type, vendor_file_type;
 
 # Keylayout
 type vendor_keylayout_file, file_type, vendor_file_type;
-
-# Perf
-type perfd_socket, file_type;
