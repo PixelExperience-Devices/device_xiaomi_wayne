@@ -574,7 +574,7 @@ service vendor.sensors.qti /vendor/bin/sensors.qti
     disabled
     writepid /dev/cpuset/system-background/tasks
 
-service power_off_alarm /vendor/bin/power_off_alarm
+service vendor.power_off_alarm /vendor/bin/power_off_alarm
     class core
     group system
     disabled
