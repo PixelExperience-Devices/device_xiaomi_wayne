@@ -271,7 +271,7 @@ fingerprint_device_t* getFingerprintDevice()
     fingerprint_device_t *fp_device;
     char class_name[PROPERTY_VALUE_MAX];
 
-    property_get("ro.boot.fingerprint",
+    property_get("ro.boot.fpsensor",
         class_name, NULL);
 
     fp_device = getDeviceForVendor(class_name);
