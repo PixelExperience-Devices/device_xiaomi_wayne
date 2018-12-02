@@ -126,7 +126,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 QCOM_BT_USE_BTNV := true
 QCOM_BT_USE_SMD_TTY := true
 
- 
+
 # Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
@@ -194,7 +194,8 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_wayne
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
-TARGET_RECOVERY_DEVICE_MODULES := libinit_wayne
+TARGET_LIBINIT_WAYNE_DEFINES_FILE := $(DEVICE_PATH)/init/init_wayne.cpp
+
 
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
