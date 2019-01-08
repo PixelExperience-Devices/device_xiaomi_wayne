@@ -267,6 +267,7 @@ on property:sys.boot_completed=1
 
 on charger
     start qcom-post-boot
+    start vendor.power_off_alarm
     start vendor.hvdcp_opti
     setprop sys.usb.configfs 1
     start thermal-engine
