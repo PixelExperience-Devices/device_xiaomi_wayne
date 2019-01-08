@@ -19,9 +19,6 @@
 # Light HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_wayne u:object_r:hal_light_default_exec:s0
 
-# Touchscreen
-/proc/nvt_wake_gesture                              u:object_r:sysfs_tap_to_wake:s0
-
 # Mlipay
 /(vendor|system/vendor)/bin/mlipayd@1.1             u:object_r:hal_mlipay_default_exec:s0
 
