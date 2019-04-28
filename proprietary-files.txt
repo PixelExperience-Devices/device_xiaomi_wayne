@@ -881,6 +881,21 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml|9b123d81c9b8991499cda33b0706810e0c
 vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml|ff91feb5060a6df07e3e4d9bc99ae58bccad7649
 vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml|f76c894f3c6d5b6ed35113a088dc3174c900501b
 vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml|14d136e7fcc682311757d3edc0b9d3eaeba11815
+-vendor/lib/com.quicinc.cne.api@1.0.so|a87b70fc72beea7caaf43ef3afb279d707f963e1
+-vendor/lib/com.quicinc.cne.api@1.1.so|cc37e339167f89b0c2f92bd2d40435cf1ffdcedb
+-vendor/lib/com.quicinc.cne.constants@1.0.so|5861ae44ce54211f9271cc5ce589213183bb9732
+-vendor/lib/com.quicinc.cne.constants@2.0.so|8b1d57564c356fe8dc9847639a4bfeaa89d9f6ed
+-vendor/lib/com.quicinc.cne.constants@2.1.so|e0f4f7e591c0036c539f072cdb42b399cd724236
+-vendor/lib/com.quicinc.cne.server@2.0.so|957698696512204dc727cf1b72dd254be352732c
+-vendor/lib/com.quicinc.cne.server@2.1.so|9ea774b70e5245f7af84b64c482800d0644650aa
+-vendor/lib/com.quicinc.cne.server@2.2.so|bbfbdf502b5d08c1a5a3a3b19c187e4acc236a25
+vendor/lib/libcne.so|144fb7182355a5b32106c42d2ba539cef226f208
+vendor/lib/libcneapiclient.so|daafe69e2e74d8cbb4c13fbe12dc2dce24f0863a
+vendor/lib/libcneoplookup.so|58493ecfcbb1d588a97d51d1b22ad02ddf42660a
+vendor/lib/libcneqmiutils.so|3739c758264ba2fc8727ce34aa67a26aec1ce69e
+vendor/lib/libwms.so|aa298eef6dc22813cb31afbd7432decb60e01871
+vendor/lib/libwqe.so|53786c06cfb117b5cce206ec976ade654f372707
+vendor/lib/libxml.so|6411bf26f7e655bef49464fb92eea32f4295af6c
 -vendor/lib64/com.quicinc.cne.api@1.0.so|1179434cbc23483d39a6d8291e2b338f1d35b80e
 -vendor/lib64/com.quicinc.cne.api@1.1.so|b861ac056cb5f318f64371f5f1ca770084d43c2c
 -vendor/lib64/com.quicinc.cne.constants@1.0.so|92ec19880eff39024caf7dea561af829833b62ed
@@ -928,6 +943,7 @@ lib64/libdpmframework.so|bbd59055bad5944fe8c8d8c7eb683b94646c6042
 lib64/libdpmtcm.so|db125f21d6f9da6afcb8956ba2eabae58cbeb30e
 vendor/bin/dpmQmiMgr|eabe3e56c87e1de3f4462e85a7ee73fc3e91f726
 vendor/lib64/libdpmqmihal.so|fecdfdb7591feec835ed713863a8dbcca141b252
+vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|52656ab77fa9e326e914d4b15aea18fa7e214470
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|05af4880ad4c633fe60750ff49525e62822585f7
 
 # DRM - from MI 8 Lite platina-user 9 PKQ1.181007.001 9.3.28 release-keys
@@ -1065,15 +1081,15 @@ vendor/lib64/vendor.qti.gnss@1.1.so|a622c409e1d20d2799904e47d8fb07753e830d7a
 vendor/lib64/vendor.qti.gnss@1.2.so|104f245c358ab202a57211f99898406cd5ad8e0e
 vendor/lib64/vendor.qti.gnss@2.0.so|b3f7ae76d4db00edce0c4f5a7084d7abeac0180a
 
-# GPU firmware
+# Graphics firmware
 vendor/firmware/a512_zap.b00
 vendor/firmware/a512_zap.b01
 vendor/firmware/a512_zap.b02
 vendor/firmware/a512_zap.elf
 vendor/firmware/a512_zap.mdt
-vendor/firmware/a530_gpmu.fw2
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
+vendor/firmware/a540_gpmu.fw2
 
 # Graphics - from MI 8 Lite platina-user 9 PKQ1.181007.001 9.3.28 release-keys
 vendor/lib64/egl/eglSubDriverAndroid.so|0cf3c7717ada28a99036114ff21b97695d136a47
@@ -1281,6 +1297,7 @@ vendor/lib64/libperipheral_client.so|c4b0cb11e908b234a54a9f212c42ff4c37e37391
 vendor/bin/hw/vendor.display.color@1.0-service|e6dbb06d0d82ffe3328e7ddd259db02f80c1669e
 vendor/bin/mm-pp-dpps|2125ca4f483e680c23f24f420dac6b0e0c1a6e34
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
 vendor/lib64/libdisp-aba.so|09a8d5f64b3a6f6f57971ad6fab62cfde4e98547
 vendor/lib64/vendor.display.color@1.0.so|6093f6b3f654ea557ea297e695bc92a8fbae0c13
 vendor/lib64/vendor.display.color@1.1.so|d08173e23f648017e4226f88efe419e8931a64d6
@@ -1437,10 +1454,12 @@ vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/lib/hw/activity_recognition.sdm660.so
 vendor/lib/libsensor_reg.so
 vendor/lib/libsensor1.so
+vendor/lib/sensor_calibrate.so
 vendor/lib/sensors.ssc.so
 vendor/lib64/hw/activity_recognition.sdm660.so
 vendor/lib64/libsensor_reg.so
 vendor/lib64/libsensor1.so
+vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.ssc.so
 
 # Soter
@@ -1458,11 +1477,10 @@ vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine-sgame.conf
 vendor/bin/thermal-engine
-vendor/lib/libthermalfeature.so
 -vendor/lib/libthermalclient.so
-vendor/lib64/libthermalfeature.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
+vendor/lib64/libthermalfeature.so
 
 # Time services - from MI 8 Lite platina-user 9 PKQ1.181007.001 9.3.28 release-keys
 -vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
