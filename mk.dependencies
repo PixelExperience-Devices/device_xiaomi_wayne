@@ -1,4 +1,13 @@
+  
 [
+ {
+   "repository": "android_vendor_xiaomi_wayne",
+   "target_path": "vendor/xiaomi/wayne"
+ },
+ {
+   "repository": "android_kernel_xiaomi_wayne",
+   "target_path": "kernel/xiaomi/wayne"
+ },
  {
     "repository": "android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
