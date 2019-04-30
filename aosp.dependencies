@@ -1,0 +1,21 @@
+  
+[
+ {
+   "repository": "MoKee/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings",
+   "branch": "mkp",
+   "remote": "github"
+ },
+ {
+   "repository": "MoKee/android_vendor_xiaomi_wayne",
+   "target_path": "vendor/xiaomi/wayne",
+   "branch": "mkp",
+   "remote": "github"
+ },
+ {
+   "repository": "MoKee/android_kernel_xiaomi_wayne",
+   "target_path": "kernel/xiaomi/wayne",
+   "branch": "mkp",
+   "remote": "github"
+ }
+]
