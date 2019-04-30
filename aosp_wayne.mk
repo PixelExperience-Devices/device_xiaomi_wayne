@@ -23,10 +23,8 @@ $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/wayne.mk)
 # Inherit from wayne device
 $(call inherit-product, device/xiaomi/wayne/device.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 PRODUCT_NAME := aosp_wayne
 PRODUCT_BRAND := Xiaomi
