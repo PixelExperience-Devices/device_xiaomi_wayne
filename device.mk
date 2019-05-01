@@ -22,7 +22,6 @@
 #
 
 $(call inherit-product, vendor/xiaomi/wayne/wayne-vendor.mk)
-$(call inherit-product, vendor/xiaomi/Miuicamera/config.mk)
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
