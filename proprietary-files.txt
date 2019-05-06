@@ -137,6 +137,9 @@ vendor/etc/camera/wayne_imx486_sunny_cn_i_chromatix.xml
 vendor/etc/camera/wayne_imx486_sunny_cn_iii_chromatix.xml
 vendor/etc/camera/wayne_imx486_sunny_india_i_chromatix.xml
 vendor/etc/camera/wayne_imx486_sunny_india_iii_chromatix.xml
+vendor/etc/MIUI_DualCamera_watermark.png
+vendor/etc/MIUI_Time.ttf
+vendor/etc/Miui-Light.ttf
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmjpeg_interface.so
