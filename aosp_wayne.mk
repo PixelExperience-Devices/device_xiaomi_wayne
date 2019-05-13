@@ -41,8 +41,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="wayne" \
     PRODUCT_NAME="wayne" \
-    BUILD_FINGERPRINT="xiaomi/wayne/wayne:9/PKQ1.180904.001/9.4.25:user/release-keys" \
-    PRIVATE_BUILD_DESC="wayne-user 9 PKQ1.180904.001 9.4.25 release-keys"
+    BUILD_FINGERPRINT="xiaomi/wayne/wayne:9/PKQ1.180904.001/V10.3.2.0.PDCCNXM:user/release-keys" \
+    PRIVATE_BUILD_DESC="wayne-user 9 PKQ1.180904.001 V10.3.2.0.PDCCNXM release-keys"
 
 TARGET_VENDOR := Xiaomi
 
