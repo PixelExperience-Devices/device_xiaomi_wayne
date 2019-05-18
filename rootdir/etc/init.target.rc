@@ -125,7 +125,8 @@ on boot
     mkdir /data/vendor/camera 0770 camera camera
 
     # Touchscreen
-    chown system system /sys/class/input/input2/wake_gesture
+    chown system system /proc/nvt_wake_gesture
+    chmod 0660 /proc/nvt_wake_gesture
 
     #add for display feature
     chown system system /sys/class/graphics/fb0/msm_fb_ce
@@ -137,9 +138,6 @@ on boot
     chown system system /sys/class/graphics/fb0/msm_fb_hbm
 
     chown wifi wifi /sys/module/wlan/parameters/fwpath
-
-    chmod 0660 /proc/nvt_wake_gesture
-    chown system system /proc/nvt_wake_gesture
     
 #USB controller configuration
     setprop vendor.usb.rndis.func.name "rndis_bam"
