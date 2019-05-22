@@ -115,10 +115,15 @@ vendor/lib64/libbtnv.so
 vendor/etc/camera/camera_config.xml
 vendor/etc/camera/female_bg.png
 vendor/etc/camera/female_icon.png
+vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
+vendor/etc/camera/GpuKernelRepo.pb
+vendor/etc/camera/model_back.dlc
+vendor/etc/camera/model_front.dlc
 vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
+vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 vendor/etc/camera/wayne_imx376_ofilm_cn_back_ii_chromatix.xml
 vendor/etc/camera/wayne_imx376_ofilm_cn_front_ii_chromatix.xml
 vendor/etc/camera/wayne_imx376_ofilm_india_back_ii_chromatix.xml
@@ -138,7 +143,7 @@ vendor/etc/camera/wayne_imx486_sunny_india_iii_chromatix.xml
 vendor/etc/MIUI_DualCamera_watermark.png
 vendor/etc/MIUI_Time.ttf
 vendor/etc/Miui-Light.ttf
-vendor/lib/hw/camera.sdm660.so|a62657531647f10b76e696c65aa6eee58d1de98c
+vendor/lib/hw/camera.sdm660.so
 vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libqomx_core.so
@@ -208,11 +213,32 @@ vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libremosaic_daemon.so
+vendor/lib/libscveBlobDescriptor.so
+vendor/lib/libscveBlobDescriptor_stub.so
+vendor/lib/libscveCommon.so
+vendor/lib/libscveCommon_stub.so
+vendor/lib/libscveFaceRecognition.so
+vendor/lib/libscveObjectSegmentation.so
+vendor/lib/libscveObjectSegmentation_stub.so
+vendor/lib/libscveObjectTracker.so
+vendor/lib/libscveObjectTracker_stub.so
+vendor/lib/libscvePanorama.so
+vendor/lib/libscvePanorama_lite.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
 vendor/lib/libvidhance_gyro.so
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/mibokeh_660_opencl.bin
+vendor/lib/libc++_shared.so
+vendor/lib/libFaceGrade.so
+vendor/lib/libcamera_scene.so
+vendor/lib/libSNPE.so
+vendor/lib/libsymphony-cpu.so
+vendor/lib/libsymphonypower.so
+vendor/lib/libSonyIMX376C3RmscLibrary.so
+vendor/lib/libSonyIMX376KRmscLibrary.so
+vendor/lib/libbase64.so
+vendor/lib/libgui_vendor.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libhdr_tm.so
 vendor/lib64/libmmcamera2_frame_algorithm.so
@@ -225,6 +251,17 @@ vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
+vendor/lib64/libscveBlobDescriptor.so
+vendor/lib64/libscveBlobDescriptor_stub.so
+vendor/lib64/libscveCommon.so
+vendor/lib64/libscveCommon_stub.so
+vendor/lib64/libscveFaceRecognition.so
+vendor/lib64/libscveObjectSegmentation.so
+vendor/lib64/libscveObjectSegmentation_stub.so
+vendor/lib64/libscveObjectTracker.so
+vendor/lib64/libscveObjectTracker_stub.so
+vendor/lib64/libscvePanorama.so
+vendor/lib64/libscvePanorama_lite.so
 vendor/lib64/libvideoutils.so
 
 # Camera Actuators
@@ -786,9 +823,40 @@ vendor/lib/libmmcamera_wayne_imx486_sunny_i.so
 vendor/firmware/cpp_firmware_v1_12_0.fw
 
 # Camera sensors
+vendor/lib/libmmcamera2_c2d_module.so
+vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_frame_algorithm.so
+vendor/lib/libmmcamera2_iface_modules.so
+vendor/lib/libmmcamera2_imglib_modules.so
+vendor/lib/libmmcamera2_isp_modules.so
+vendor/lib/libmmcamera2_is.so
+vendor/lib/libmmcamera2_mct_shimlayer.so
+vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_pp_buf_mgr.so
+vendor/lib/libmmcamera2_pproc_modules.so
+vendor/lib/libmmcamera2_q3a_core.so
+vendor/lib/libmmcamera2_sensor_modules.so
+vendor/lib/libmmcamera2_stats_algorithm.so
+vendor/lib/libmmcamera2_stats_lib.so
+vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera_arcsoftbokeh_lib.so
+vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
 vendor/lib/libmmcamera_bokeh.so
+vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_depth_map.so
+vendor/lib/libmmcamera_dummyalgo.so
+vendor/lib/libmmcamera_eebinparse.so
+vendor/lib/libmmcamera_eeprom_util.so
+vendor/lib/libmmcamera_eztune_module.so
+vendor/lib/libmmcamera_facedetection_lib.so
+vendor/lib/libmmcamera_faceproc2.so
+vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_hdr_gb_lib.so
+vendor/lib/libmmcamera_hvx_add_constant.so
+vendor/lib/libmmcamera_hvx_grid_sum.so
+vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
+vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_isp_abf48.so
 vendor/lib/libmmcamera_isp_aec_bg_stats47.so
 vendor/lib/libmmcamera_isp_bf_stats47.so
@@ -815,9 +883,9 @@ vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so
 vendor/lib/libmmcamera_isp_gamma44.so
 vendor/lib/libmmcamera_isp_gic48.so
 vendor/lib/libmmcamera_isp_gtm46.so
+vendor/lib/libmmcamera_isp_hdr48.so
 vendor/lib/libmmcamera_isp_hdr_be_stats46.so
 vendor/lib/libmmcamera_isp_hdr_bhist_stats44.so
-vendor/lib/libmmcamera_isp_hdr48.so
 vendor/lib/libmmcamera_isp_ihist_stats46.so
 vendor/lib/libmmcamera_isp_linearization40.so
 vendor/lib/libmmcamera_isp_ltm47.so
@@ -833,6 +901,9 @@ vendor/lib/libmmcamera_isp_scaler_viewfinder46.so
 vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
+
+# Camera HIDL
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 
 # Charger
 vendor/bin/hvdcp_opti
