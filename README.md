@@ -8,7 +8,7 @@ Chipset | Qualcomm Snapdragon 660, SDM660
 GPU     | Adreno 512
 ROM     | 32/64/128GB
 RAM     | 3/4/6GB
-Android | 8.1.0
+Android | 8.1.0/9.0
 Battery | 3010 mAh
 Display | 1080x2160 pixels, 5.99
 Rear Camera  | 12MP+20MP, AI Dual Camera
