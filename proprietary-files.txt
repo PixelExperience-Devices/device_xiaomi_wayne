@@ -1272,6 +1272,7 @@ vendor/lib/libFlacSwDec.so
 vendor/lib/libvpplibrary.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libmm-color-convertor.so
+vendor/lib/libmm-omxcore.so
 vendor/lib/libmmosal_proprietary.so
 vendor/lib/libmmsw_detail_enhancement.so
 vendor/lib/libmmsw_math.so
@@ -1287,6 +1288,7 @@ vendor/lib/libOmxAmrDec.so
 vendor/lib/libOmxAmrwbplusDec.so
 vendor/lib/libOmxApeDec.so
 vendor/lib/libOmxApeDecSw.so
+vendor/lib/libOmxCore.so
 vendor/lib/libOmxDsdDec.so
 vendor/lib/libOmxG711Dec.so
 vendor/lib/libOmxVideoDSMode.so
@@ -1301,6 +1303,7 @@ vendor/lib64/libFlacSwDec.so
 -vendor/lib64/libgpustats.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libmm-color-convertor.so
+vendor/lib64/libmm-omxcore.so
 vendor/lib64/libmmosal_proprietary.so
 vendor/lib64/libmmsw_detail_enhancement.so
 vendor/lib64/libmmsw_math.so
@@ -1313,6 +1316,7 @@ vendor/lib64/libOmxAmrDec.so
 vendor/lib64/libOmxAmrwbplusDec.so
 vendor/lib64/libOmxApeDec.so
 vendor/lib64/libOmxApeDecSw.so
+vendor/lib64/libOmxCore.so
 vendor/lib64/libOmxEvrcDec.so
 vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxQcelp13Dec.so
@@ -1388,7 +1392,15 @@ vendor/lib64/libperipheral_client.so
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/mm-pp-dpps
 vendor/etc/init/vendor.display.color@1.0-service.rc
+vendor/lib/libdrm.so
+vendor/lib/libdrmutils.so
+vendor/lib/libqdMetaData.so
+vendor/lib/libsdmutils.so
 vendor/lib64/libdisp-aba.so
+vendor/lib64/libdrm.so
+vendor/lib64/libdrmutils.so
+vendor/lib64/libqdMetaData.so
+vendor/lib64/libsdmutils.so
 vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.postproc@1.0.so
