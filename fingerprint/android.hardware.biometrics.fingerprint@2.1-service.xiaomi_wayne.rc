@@ -13,8 +13,6 @@ on boot
     chown system system /sys/bus/platform/devices/soc:fpc1020/hw_reset
     chown system system /sys/bus/platform/devices/soc:fpc1020/device_prepare
     chown system system /data/misc/fpc/calibration_image.pndat
-    chown system system /sys/bus/platform/devices/soc:fpc1020/proximity_state
-    chown system system /sys/bus/platform/devices/soc:goodix_fp/proximity_state
     chmod 0700 /sys/bus/platform/devices/soc:fpc1020/irq
     chmod 0700 /sys/bus/platform/devices/soc:fpc1020/wakeup_enable
     chmod 0700 /sys/bus/platform/devices/soc:fpc1020/hw_reset
