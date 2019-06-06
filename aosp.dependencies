@@ -13,9 +13,7 @@
    "remote": "github"
  },
  {
-   "repository": "MoKee/android_kernel_xiaomi_wayne",
-   "target_path": "kernel/xiaomi/wayne",
-   "branch": "mkp",
-   "remote": "github"
+   "repository": "kernel_xiaomi_wayne",
+   "target_path": "kernel/xiaomi/wayne"
  }
 ]
