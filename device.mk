@@ -176,8 +176,7 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts \
-    XiaomiPocketMode
+    XiaomiParts
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -284,6 +283,7 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     netutils-wrapper-1.0
 
+<<<<<<< HEAD
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
@@ -303,6 +303,8 @@ PRODUCT_BOOT_JARS += \
     QPerformance \
     UxPerformance
 
+=======
+>>>>>>> 8a1bbd2... violet: Ditch XiaomiPocketMode
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3-service.xiaomi_wayne-libperfmgr 
