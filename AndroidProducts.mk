@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_wayne.mk
+    $(LOCAL_DIR)/aosip_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_wayne-user \
-    lineage_wayne-userdebug \
-    lineage_wayne-eng
+    aosip_wayne-user \
+    aosip_wayne-userdebug \
+    aosip_wayne-eng
