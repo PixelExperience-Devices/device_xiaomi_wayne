@@ -37,7 +37,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="coral-user 10 QQ1D.200205.002 6084393 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 10 QQ2A.200305.003 6156912 release-keys"
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
