@@ -39,6 +39,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="coral-user 10 QQ2A.200305.003 6156912 release-keys"
 
+# Build FP to be picked by both system and vendor
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200305.003/6156912:user/release-keys"
+
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
