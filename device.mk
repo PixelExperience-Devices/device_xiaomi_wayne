@@ -34,3 +34,4 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/wayne/wayne-vendor.mk)
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)

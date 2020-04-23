@@ -35,3 +35,4 @@ VENDOR_SECURITY_PATCH := 2018-11-01
 
 # Inherit the proprietary files
 include vendor/xiaomi/wayne/BoardConfigVendor.mk
+-include vendor/gapps/common/BoardConfigVendor.mk
