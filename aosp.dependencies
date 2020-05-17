@@ -15,15 +15,9 @@
    "branch": "ten"
  },
  {
-   "remote": "github",
-   "repository": "xiaomi-sdm660/android_vendor_xiaomi_MiuiCamera",
-   "target_path": "vendor/xiaomi/MiuiCamera",
-   "branch": "lineage-17.0"
- },
- {
-    "repository": "packages_apps_PixelLiveWallpaper",
-    "target_path": "packages/apps/PixelLiveWallpaper",
-    "branch": "ten",
-    "remote": "pixel-gitlab"
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-11.0",
+    "remote": "github",
+    "branch": "master"
   }
 ]
