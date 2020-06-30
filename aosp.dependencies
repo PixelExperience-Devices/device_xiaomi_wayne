@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "aosip-devices/device_xiaomi_wayne-common",
+    "target_path": "device/xiaomi/wayne-common",
+    "branch": "ten"
+  },
+  {
+    "remote": "github",
+    "repository": "ctwoon/device_xiaomi_sdm660-common",
+    "target_path": "device/xiaomi/sdm660-common",
+    "branch": "ten"
+  },
+  {
+    "remote": "github",
+    "repository": "aosip-devices/vendor_xiaomi",
+    "targer_path": "vendor/xiaomi",
+    "branch": "ten"
+  }
+]
