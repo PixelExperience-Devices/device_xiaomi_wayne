@@ -13,8 +13,20 @@
   },
   {
     "remote": "github",
-    "repository": "aosip-devices/vendor_xiaomi",
-    "targer_path": "vendor/xiaomi",
+    "repository": "ctwoon/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "ten"
+  },
+  {
+    "remote": "github",
+    "repository": "ctwoon/msm-4.4",
+    "target_path": "kernel/xiaomi/sdm660",
+    "branch": "staging"
+  },
+  {
+    "remote": "github",
+    "repository": "aosip-devices/vendor_dirac",
+    "target_path": "vendor/dirac",
     "branch": "ten"
   }
 ]
