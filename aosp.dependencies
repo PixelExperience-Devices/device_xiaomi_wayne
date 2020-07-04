@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "aosip-devices/device_xiaomi_wayne-common",
+    "repository": "ctwoon/device_xiaomi_wayne-common",
     "target_path": "device/xiaomi/wayne-common",
     "branch": "ten"
   },
