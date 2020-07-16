@@ -6,10 +6,9 @@
     "branch": "ten"
   },
   {
-    "remote": "github",
-    "repository": "ctwoon/device_xiaomi_sdm660-common",
+    "repository": "device_xiaomi_sdm660-common",
     "target_path": "device/xiaomi/sdm660-common",
-    "branch": "ten"
+    "branch": "ten-eas"
   },
   {
     "remote": "github",
